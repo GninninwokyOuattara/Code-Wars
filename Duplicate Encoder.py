@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-
-
 def duplicate_encode(word):
     word = word.lower()
     duplicate = []
@@ -20,5 +18,3 @@ def duplicate_encode(word):
         else:
             str += "("
     return str
-
-# indices = [i for i, x in enumerate(my_list) if x in word]

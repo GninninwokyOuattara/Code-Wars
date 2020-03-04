@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-
-from test import Test
-
-
 def sum(arr):
     s = 0
     for n in arr:
